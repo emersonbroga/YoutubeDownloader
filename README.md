@@ -84,7 +84,7 @@ $youtube = new YoutubeDownloader('gmFn62dr0D8');
 
 
 $youtube->onProgress = function ($downloadedBytes, $fileSize) {
-	echo 'Downloaded '$downloadedBytes . ' of ' . $fileSize . ' bytes.' . "\n";
+	echo 'Downloaded ' . $downloadedBytes . ' of ' . $fileSize . ' bytes.' . "\n";
 };
 
 
